@@ -161,12 +161,12 @@ container1.forEach((elem) => {
          {/* my first project cloud note  */}
         <section className="allprojcet cloudnote">
             <h2><span className="underline">explore my projects</span></h2>
-            <h3>my first project <a href="#" target="_blank">cloud note</a></h3>
+            <h3>my first project cloud note</h3>
             <section className="project ">
 
                 <aside className="project-info cloudnote-info">
                     <h3>➡️few information about cloud-note</h3>
-                    <p className="mt"> This is my first project, built from October 15 to December 1, 2023. Through it, I
+                    <p className="mt">This is my first project, built from October 15 to December 1, 2023. Through it, I
                         discovered my passion for software development. I chose this small project because it's an
                         effective way for beginners to learn the fundamentals of front-end, back-end, and database
                         development. It's a full-stack application using the MERN stack, which helped me solidify my
@@ -226,11 +226,11 @@ container1.forEach((elem) => {
         {/* <!-- my secound project e-commerce --> */}
         <section className="allprojcet ecommerce ">
             <h2></h2>
-            <h3>my secound project <a href="#" target="_blank"> e-commerce</a></h3>
+            <h3>my secound project <a href="https://ecommerce.virrahul.com" target="_blank"> e-commerce</a></h3>
             <section className="project row">
                 <aside className="project-info cloudnote-info ecommerce-info">
                     <h3>➡️few information about e-commerce</h3>
-                    <p className="mt"> This is my secound project, built from February 2 to April 16, 2024. I chose this big
+                    <p className="mt"> Link <a href="https://ecommerce.virrahul.com" target="_blank">https://ecommerce.virrahul.com</a>This is my secound project, built from February 2 to April 16, 2024. I chose this big
                         project because it's an effective way to learn the more fundamentals of front-end, back-end,
                         API, and database development. It's a full-stack application using the MERN stack, which helped
                         me solidify my skills and understanding of these technologies </p>
@@ -288,12 +288,12 @@ container1.forEach((elem) => {
         {/* <!-- my third project collage canteen --> */}
         <section className="allprojcet canteen">
             <h2></h2>
-            <h3>my third project <a href="#" target="_blank">collage canteen</a></h3>
+            <h3>my third project <a href="https://canteen.virrahul.com/" target="_blank">collage canteen</a></h3>
             <section className="project ">
 
                 <aside className="project-info cloudnote-info canteen-info">
                     <h3>➡️few information about canteen</h3>
-                    <p className="mt"> This is my third project, built from June 1 to August 3, 2024. Through it,
+                    <p className="mt"> Link <a href="https://canteen.virrahul.com/" target="_blank">https://ecommerce.virrahul.com</a> This is my third project, built from June 1 to August 3, 2024. Through it,
                         I chose this project because it's an effective way for beginners to learn the fundamentals of
                         front-end, back-end, and database development. It's a full-stack application using the MERN
                         stack, which helped me solidify my skills and understanding of these technologies </p>
@@ -353,28 +353,28 @@ container1.forEach((elem) => {
             <section className="project-images">
                 <div className="box2 bg">
                     <h3 className="pl font-s">Tic-Tac-Toe</h3>
-                    <video src=""></video>
+                    <video src="vidoes/TicTacToe.mp4" muted loop autoPlay></video>
                 </div>
                 <div className="box2 bg1">
                     <h3 className="pl font-s">Instagram clone |node js, express js and ejs as a view engin</h3>
 
-                    <video src=""></video>
+                    {/* <video src=""></video> */}
                 </div>
                 <div className="box2 bg font-s">
                     <h3 className="pl ">Duo-studio.co clone</h3>
-                    <video src=""></video>
+                    <video src="/vidoes/awward22.mp4" muted loop autoPlay></video>
                 </div>
                 <div className="box2 bg1 font-s">
                     <h3 className="pl ">Awward Ochi | react.js</h3>
-                    <video src=""></video>
+                    <video src="vidoes/ochi.mp4" muted loop autoPlay></video>
                 </div>
                 <div className="box2 bg font-s">
                     <h3 className="pl ">realtime video and chart application</h3>
-                    <video src=""></video>
+                    <video src="/vidoes/chat.mp4" muted loop autoPlay></video>
                 </div>
                 <div className="box2 bg1">
                     <h3 className="pl font-s">music player</h3>
-                    <video src="/vidoes/cloudNoute.mp4" muted loop autoPlay></video>
+                    <video src="/vidoes/musicplayer.mp4" muted loop autoPlay></video>
                 </div>
             </section>
         </section>
