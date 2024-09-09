@@ -293,7 +293,7 @@ container1.forEach((elem) => {
 
                 <aside className="project-info cloudnote-info canteen-info">
                     <h3>➡️few information about canteen</h3>
-                    <p className="mt"> Link <a href="https://canteen.virrahul.com/" target="_blank">https://ecommerce.virrahul.com</a> This is my third project, built from June 1 to August 3, 2024. Through it,
+                    <p className="mt"> Link <a href="https://canteen.virrahul.com/" target="_blank">https://canteen.virrahul.com</a> This is my third project, built from June 1 to August 3, 2024. Through it,
                         I chose this project because it's an effective way for beginners to learn the fundamentals of
                         front-end, back-end, and database development. It's a full-stack application using the MERN
                         stack, which helped me solidify my skills and understanding of these technologies </p>
