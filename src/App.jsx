@@ -48,7 +48,7 @@ container.forEach((elem) => {
     gsap.from(elem.firstElementChild, {
         scrollTrigger: {
             trigger: elem,
-            start: "top 70%",
+            start: "top 75%",
             end: "50% bottom",
             scrub: 1,
         },
@@ -62,7 +62,7 @@ container.forEach((elem) => {
     gsap.from(elem.children[1], {
         scrollTrigger: {
             trigger: elem,
-            start: "top 70%",
+            start: "top 75%",
             end: "50% bottom",
             scrub: 1,
         },
@@ -75,7 +75,7 @@ container.forEach((elem) => {
     gsap.from(vid, {
         scrollTrigger: {
             trigger: elem,
-            start: "top 70%",
+            start: "top 75%",
             end: "50% bottom",
             scrub: 2,
         },
@@ -96,7 +96,7 @@ container1.forEach((elem) => {
     gsap.from([...p, ...li], { // Combine p and li NodeLists into one array
         scrollTrigger: {
             trigger: elem,
-            start: "top 70%",
+            start: "top 75%",
             end: "50% bottom",
             scrub: 1,
         },
@@ -109,7 +109,7 @@ container1.forEach((elem) => {
     gsap.from(h3, {
         scrollTrigger: {
             trigger: elem,
-            start: "top 70%",
+            start: "top 75%",
             end: "50% bottom",
             scrub: 1,
         },
