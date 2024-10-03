@@ -16,7 +16,7 @@ gsap.from(".main .pageone .right .img",{
     duration: 1,
     ease:"power3"
 });
-gsap.from(".main .pageone .left h2",{
+gsap.from(".main .pageone .left h2,.button",{
     y:100,
     opacity:0,
     duration: .6,
@@ -131,6 +131,13 @@ container1.forEach((elem) => {
             <aside className="left">
                 <h2>i am <span className="text-orange">rahul</span>,</h2>
                 <h2><span className="underline"> full stack developer</span></h2>
+                <div className='button'>
+                <div className='rainbow-hover'> 
+                <a href="rahuldeveloper.pdf"  download="rahuldeveloper.pdf" className='sp'>{`download cv`}</a></div>
+                <div className='rainbow-hover'> 
+                <a href="rahuldeveloper.pdf" rel="noopener noreferrer"  target="_blank" className='sp'>{`view cv`}</a></div>
+                </div>
+            
             </aside>
             <div className="custom-shape-divider-bottom-1724080202">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
@@ -153,7 +160,7 @@ container1.forEach((elem) => {
         <section className="pagetwo">
             <h2><span className="underline">more about me</span></h2>
             <div className="info">
-              <p>My name is <span className="text-yellow">Rahul kumar mandal</span> from Bihar,<br></br>I am a full-stackdeveloper with two years of experience specializing in building web applications. My expertise includes working with React.js for the frontend and Tailwind CSS for styling. On the backend, I utilize Node.js and Express to create efficient server-side logic and manage data with MongoDB. <br></br> I am also proficient in designing and implementing RESTful APIs. Additionally, I use Next.js as a framework to enhance my applications, ensuring they are scalable and performant.!</p>
+              <p>My name is <span className="text-yellow">Rahul kumar mandal</span> from Bihar,<br></br>I am a full-stackdeveloper last two years of contiunous learn specializing in building web applications. My expertise includes working with React.js for the frontend and Tailwind CSS for styling. On the backend, I utilize Node.js and Express to create efficient server-side logic and manage data with MongoDB. <br></br> I am also proficient in designing and implementing RESTful APIs. Additionally, I use Next.js as a framework to enhance my applications, ensuring they are scalable and performant.!</p>
                 <img className="img" src="/images/aboutme.png" alt="aboutme"/>
           </div>
 
@@ -288,19 +295,17 @@ container1.forEach((elem) => {
         {/* <!-- my third project collage canteen --> */}
         <section className="allprojcet canteen">
             <h2></h2>
-            <h3>my third project <a href="https://canteen.virrahul.com/" target="_blank">collage canteen</a></h3>
+            <h3>my third project <a href="https://canteen.virrahul.com/" target="_blank">collage canteen management</a></h3>
             <section className="project ">
 
                 <aside className="project-info cloudnote-info canteen-info">
                     <h3>➡️few information about canteen</h3>
-                    <p className="mt"> Link <a href="https://canteen.virrahul.com/" target="_blank">https://canteen.virrahul.com</a> This is my third project, built from June 1 to August 3, 2024. Through it,
-                        I chose this project because it's an effective way for beginners to learn the fundamentals of
-                        front-end, back-end, and database development. It's a full-stack application using the MERN
-                        stack, which helped me solidify my skills and understanding of these technologies </p>
+                    <p className="mt"> Link <a href="https://canteen.virrahul.com/" target="_blank">https://canteen.virrahul.com</a> This is my third project, built from June 1 to August 3, 2024. 
+                        this project is really awssome because i am intergate socket.io or auth.js for authication and bulid real time notification like add to cart, new order for amdim and order confirmed for user ect. It's a full-stack application using the next.js framwork, which helped me solidify my skills and understanding of these technologies </p>
 
                     <h3 className="mt">➡️key feature </h3>
                     <ul>
-                        <li>Credentials login and signup</li>
+                        <li>Credentials login and signup , google</li>
                         <li>all button are clickable and working</li>
                         <li>fast response and notification</li>
                         <li>admin panal and graph representation , react-table</li>
